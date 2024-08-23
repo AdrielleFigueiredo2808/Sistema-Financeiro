@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa1d8;
+}
+
+main {
+  max-width: 600px; 
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  background-color: #fff; 
+  border: 2px solid #FB0881; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px; 
+}
+
+.header {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 50px;
+}
+
+.header h1 {
+  margin: 0;
+  text-align: center; 
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.resume > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px #FB0881;
+  border-radius: 10px;
+  padding: 8px; 
+  width: 100%;
+}
+
+.newItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.divAmount {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newItem > button {
+  background-color: #FB0881;
+  color: #000; 
+  border: none;
+  padding: 8px 12px; 
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center; 
+}
+
+input, select {
+  padding: 8px; 
+  border-radius: 5px;
+  border: 1px solid #FB0881; 
+  width: 100%; 
+}
+
+select {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #FB0881; 
+}
+
+select:focus {
+  border-color: #000;
+}
+
+select option {
+  background-color: #fff;
+  color: #000;
+}
+
+.divTable {
+  width: 100%;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: start;
+  border-bottom: 1px solid #FB0881; 
+  padding-bottom: 10px;
+}
+
+
+th i {
+  font-size: 20px;
+  color: #FB0881;
+  margin-right: 10px;
+}
+
+.bxs-chevron-up-circle {
+  color: #FB0881;
+}
+
+.bxs-chevron-down-circle {
+  color: #FB0881;
+}
+
+.columnAction {
+  width: 60px;
+  text-align: center;
+}
+
+.columnAction > button {
+  background: transparent;
+  border: none;
+}
+
+.columnAmount {
+  width: 30%;
+}
+
+.columnType {
+  width: 80px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #FB0881; 
+  width: 100%;
+}
+
+
+
